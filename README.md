@@ -15,6 +15,6 @@ A Python program that uses multinomial probability theory to predict whether Moz
 - To run with the provided mystery piece (Ah vous dirai-je, Maman by Mozart), you can just run the file `composer_predictor.py`
 
 - To add your own mystery piece:
-  - Add a MIDI file (e.g. `example.mid`) to the testing/ folder. You can find MIDI files for Bach and Mozart pieces on Google.
+  - Add a MIDI file (e.g. `example.mid`) to the `testing/` folder. You can find MIDI files for Bach and Mozart pieces on Google
   - Go to line 126 of `composer_predictor.py` and rename the file path appropriately (e.g. `mystery_piece = "testing/example.mid"`)
-  - Now you can run `composer_predictor.py` to see the prediction.
+  - Now you can run `composer_predictor.py` to see the prediction
